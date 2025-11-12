@@ -1,0 +1,10 @@
+const fs = require("fs");
+const words = JSON.parse(fs.readFileSync("/Users/kelly/sat_practice/sat-vocab-app/data/words.json", "utf8"));
+const script = fs.readFileSync("/Users/kelly/sat_practice/sat-vocab-app/scripts/add-examples.js", "utf8");
+const existingExamples = script.match(/"[^"]+":/g).map(s => s.slice(1, -2).toLowerCase());
+console.log("Total words:", words.length);
+console.log("Existing examples:", existingExamples.length);
+const missing = words.filter(w => !existingExamples.includes(w.word.toLowerCase()));
+console.log("Missing examples:", missing.length);
+console.log("\nFirst 30 missing words:");
+missing.slice(0, 30).forEach(w => console.log(w.word + " - " + w.definition));

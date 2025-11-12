@@ -1,0 +1,50 @@
+{
+  "1": {
+    "correct": 0,
+    "incorrect": 5,
+    "totalAttempts": 5,
+    "difficultyScore": 1
+  },
+  "2": {
+    "correct": 1,
+    "incorrect": 2,
+    "totalAttempts": 3,
+    "difficultyScore": 0.6666666666666666
+  },
+  "3": {
+    "correct": 1,
+    "incorrect": 1,
+    "totalAttempts": 2,
+    "difficultyScore": 0.5
+  },
+  "4": {
+    "correct": 3,
+    "incorrect": 0,
+    "totalAttempts": 3,
+    "difficultyScore": 0
+  },
+  "5": {
+    "correct": 0,
+    "incorrect": 4,
+    "totalAttempts": 4,
+    "difficultyScore": 1
+  },
+  "388": {
+    "correct": 0,
+    "incorrect": 1,
+    "totalAttempts": 1,
+    "difficultyScore": 1
+  },
+  "649": {
+    "correct": 1,
+    "incorrect": 0,
+    "totalAttempts": 1,
+    "difficultyScore": 0
+  },
+  "1073": {
+    "correct": 1,
+    "incorrect": 0,
+    "totalAttempts": 1,
+    "difficultyScore": 0
+  }
+}
